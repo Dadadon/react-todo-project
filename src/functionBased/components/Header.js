@@ -9,7 +9,8 @@ const Header = () => {
   
   return (
     <header style={headerStyle}>
-      <h1 style={{ fontSize: "6rem", fontWeight: "600", marginBottom: "2rem", lineHeight: "1em", color: "#ececec", textTransform: "lowercase", textAlign: "center" }}>todos</h1>
+      <h5 style={{ fontSize: "6rem", fontWeight: "600", marginBottom: "2rem", lineHeight: "1em", color: "orangered", textAlign: "center" }}>Hey!</h5>
+      <p style={{ fontSize: "3rem", fontWeight: "600", marginBottom: "2rem", lineHeight: "1em", color: "orangered", textAlign: "center" }}>Whats on the agenda?</p>
     </header>
   )
 }
